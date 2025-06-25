@@ -1,7 +1,10 @@
-ThisBuild / version := "0.1.0"
-ThisBuild / scalaVersion := "2.12.18"
+name := "ExerciceXII"
 
-lazy val root = (project in file("."))
-  .settings(
-    name := "ExerciceXI"
-  )
+version := "0.1"
+
+scalaVersion := "2.12.18" // compatible Spark 3.x
+
+libraryDependencies ++= Seq(
+  "org.apache.spark" %% "spark-core" % "3.4.1",
+  "org.apache.spark" %% "spark-sql" % "3.4.1"
+)
