@@ -1,0 +1,28 @@
+# 📂 Fichiers système
+.DS_Store
+Thumbs.db
+
+# 🛠️ Fichiers de compilation et de build
+/target/
+/out/
+/project/target/
+/project/project/
+/spark-warehouse/
+
+# 📝 Fichiers de log
+*.log
+
+# 🧠 Fichiers de cache pour Metals (Scala Language Server)
+/.metals/
+/.bloop/
+/.worksheet/
+
+# 💻 Fichiers spécifiques à IntelliJ IDEA
+.idea/
+*.iml
+
+# 💻 Fichiers spécifiques à VS Code
+.vscode/
+
+# 🔐 Credentials ou config sensible (si applicable)
+/.env
